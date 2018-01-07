@@ -3,7 +3,17 @@
 
     <sitemap>
         <loc>https://siml-seo.github.io/post-sitemap.xml</loc>
-        <lastmod>2018-01-01T09:44:53.025Z</lastmod>
+        <lastmod>2018-01-07T07:44:47.484Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://siml-seo.github.io/category-sitemap.xml</loc>
+        <lastmod>2018-01-07T07:44:47.484Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://siml-seo.github.io/tag-sitemap.xml</loc>
+        <lastmod>2018-01-07T07:44:47.484Z</lastmod>
     </sitemap>
 
 </sitemapindex>

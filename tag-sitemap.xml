@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://siml-seo.github.io</loc>
-        <changefreq>daily</changefreq>
-        <priority>1</priority>
-    </url>
 
     <url>
-        <loc>https://siml-seo.github.io/2018/01/07/1%EC%A3%BC%EC%B0%A8/</loc>
+        <loc>https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/</loc>
         <lastmod>2018-01-07T07:44:47.484Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://siml-seo.github.io/2017/12/31/test/</loc>
-        <lastmod>2018-01-01T09:49:12.511Z</lastmod>
+        <loc>https://siml-seo.github.io/tags/HTML/</loc>
+        <lastmod>2018-01-07T07:44:47.484Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.2</priority>
+    </url>
 
+    <url>
+        <loc>https://siml-seo.github.io/tags/CSS/</loc>
+        <lastmod>2018-01-07T07:44:47.484Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://siml-seo.github.io/tags/JS/</loc>
+        <lastmod>2018-01-07T07:44:47.484Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
     </url>
 
 </urlset>

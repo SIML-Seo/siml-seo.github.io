@@ -7,19 +7,10 @@
     </url>
 
     <url>
-        <loc>https://siml-seo.github.io/2018/01/07/1%EC%A3%BC%EC%B0%A8/</loc>
+        <loc>https://siml-seo.github.io/categories/2018-01/</loc>
         <lastmod>2018-01-07T07:44:47.484Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://siml-seo.github.io/2017/12/31/test/</loc>
-        <lastmod>2018-01-01T09:49:12.511Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>

@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-01-07T07:44:47.484Z</updated>
+  <updated>2018-01-14T10:37:45.885Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -17,13 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2주차</title>
+    <link href="https://siml-seo.github.io/2018/01/14/2%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/01/14/2주차/</id>
+    <published>2018-01-14T08:53:44.000Z</published>
+    <updated>2018-01-14T10:37:45.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>자바를 이용한 개인과제로 뭐가 좋을 지에 대한 고민이 많은 한 주였습니다.<br>현재로서는 자바를 이용한 슈팅게임이 가장 무난해보입니다.<br>갤러그와 비슷한 형태가 되지 않을까 싶습니다.</p><hr><h3>‘네트워크원리’</h3><ul><br><li>공부한 시간 : 4시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>DNS서버에서 IP 일치 조회에 이용하는 것은 이름, 클래스(현재는 IN), 타입<br></li><li>도메인 명은 계층구조(오른쪽이 상위)<br></li><li>루트 도메인은 모든 DNS서버에 등록, 1번째 DNS → 루트 도메인 → 점차 왼쪽 도메인이 등록된 DNS서버로 이동<br></li><li>캐시에 등록되어있으면 순차이동X 바로이동O<br></li><li>Data 송수신<br>    1)소켓(Data 출입구)작성 = 소켓라이브러리의 socket호출, 디스크립터 생성(소켓일련번호)<br>    2)소켓끼리 파이프연결 = 소켓라이브러리의 connect 호출(디스크립터, 서버IP, 포트번호 입력)<br>    3)Data 송수신 = 소켓라이브러리의 write, read 호출<br>    4)파이프분리, 소켓말소 = 소켓 라이브러리의 close 호출<br></li><li>OS 내의 프로토콜 스택 내에 TCP, UDP, IP(ICMP(패킷운반통지, ARP(MAC주소조사))<br></li><li>라이브러리가 소켓 생성 의뢰시 프로토콜 스택은 소켓 한개 분량의 메모리 확보(디스크립터 주소)<br></li><li>송수신 실행시 프로토콜 스택이 데이터 일시저장할 공간인 버퍼 메모리 확보<br></li><li>데이터저장 패킷 구성 = 이더넷, IP, TCP 제어정보 헤더, 데이터 조각<br></li><li>제어정보 = 송수신 포트번호, 시퀀스번호(데이터 패킷 모을 시의 일련번호), ACK번호(수신처에 도달한 패킷의 총량(일련번호)), 컨트롤비트(잘 전달시 1)<br></li><li>MTU = 패킷 운반 가능 데이터 최대 길이 MSS = 데이터 최대 길이<br></li><li>타임아웃값(ACK번호 도착까지 대기시간), 낭비이니 연속해서 패킷 보냄.<br>수신 가능 최대 데이터 양 = 윈도우사이즈. 빈 영역 생기면 윈도우 통지.<br></li><li>허브 = 이더넷 규칙 = MAC헤더 = 패킷 운반<br></li><li>라우터 = IP 규칙 = IP헤더 = 목적지확인<br></li></ol></li></ul><p>네트워크 경험치 : 2 X 4 = 8 + 4 = 12exp, 아직 흐름이 완전한 건 아닌 것 같습니다.</p><hr><h3>‘칸JS’</h3><ul><li>공부한 시간 : 4시간<br></li><li>새롭게 알게된 사실<br><ol><li>배열 = [], .push<br></li><li>오브젝트 = {}(키:값의 나열), .prototype<br></li><li>상속 = Creature.call(this, ), Object.creat()<br></li></ol></li></ul><p>JS 경험치 : 2 X 4 = 8 + 2 = 10exp, 배열 등이 나오면서 과제가 점차 어려워지기 시작했습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;자바를 이용한 개인과제로 뭐가 좋을 지에 대한 고민이 많은 한 주였습니다.&lt;br&gt;현재로서는 자바를 이용한 슈팅게임이 가장 무난해보입니다.&lt;br&gt;갤러그와 비슷한 형태가 되지 않을까 싶습니다.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3&gt;‘네트워크원리’&lt;/h3&gt;
+
+&lt;u
+      
+    
+    </summary>
+    
+      <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
+    
+    
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>1주차</title>
     <link href="https://siml-seo.github.io/2018/01/07/1%EC%A3%BC%EC%B0%A8/"/>
     <id>https://siml-seo.github.io/2018/01/07/1주차/</id>
     <published>2018-01-07T06:41:35.000Z</published>
-    <updated>2018-01-07T07:44:47.484Z</updated>
+    <updated>2018-01-14T09:13:46.441Z</updated>
     
-    <content type="html"><![CDATA[<p>작심일일이라 부끄러운 한 주였습니다.<br>친구와의 저녁약속, 컨디션 난조 등으로 생각만큼 진도를 나가지 못했습니다.</p><hr><h3>‘성공과 실패를 결정하는 1% 네트워크 원리’<h6>(이하 네트워크원리)</h6></h3><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>URL 끝 / 뒤에는 index.html 등이 생략<br></li><li>리퀘스트라인(HTTP 포맷 첫째 행) = [메소드] [URI] [버전]<br></li><li>메소드 = 동작요구<br></li><li>URI = 액세스 대상<br></li><li>스테이터스라인(응답메시지 첫째 행) = [버전] [스테이터스코드] [응답문구]<br></li><li>스테이터스 코드 = 실행결과 상태 표시<br></li><li>응답문구 = 실행결과 알림<br></li><li>메시지 본문에 영상 등의 태그가 있으면 빈칸표시, 이후 URI부분에 영상 파일 이름 쓴 리퀘스트 메시지 재차전달의 반복<br></li><li>IP 아닌 도메인으로 직접 연결 안하는 이유 = IP 4바이트, 도메인 최대 255바이트. 비효율<br></li><li>Socket 라이브러리 = 네트워크 기능 호출 위한 프로그램 부품집<br></li><li>리졸버 = DNS서버에 IP주소 확인(네임 리졸루션(resolution)), 소켓 라이브러리 내에 포함.<br></li><li>리졸버 호출 방법 = 리졸버 프로그램명(“도메인명”)<br></li><li>리졸버에는 송수신 기능이 없으므로 송신 동작은 OS 내부 포함된 ‘프로토콜 스택’ 호출<br></li></ol></li></ul><p>User → URL → 웹브라우저 → HTTP 리퀘스트 메시지 → 리졸버 호출 → Socket 라이브러리 → 리졸버 → 프로토콜 스택</p><p>네트워크 경험치 : 2 X 2 = 4exp, 새롭게 알게 된 내용이 많았습니다.</p><hr><h3>‘자바 웹 프로그래밍 Next Step’ <h6>(이하 자바웹)</h6></h3><p></p><p><br>경험치가 부족하여 아직 읽을 수가 없었습니다.<br>HTML, CSS, JS, JAVA, String, DB 기초를 쌓은 다음에 도전이 가능할 듯합니다.</p><p>자바웹 경험치 : 0exp</p><hr><h3>‘모던 웹 디자인을 위한 HTML5 + CSS3 입문’<h6>(이하 HTMLCSS입문)</h6></h3><ul><br><li>공부한 시간 : 8시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>루비 문자 = 후리가나<br></li><li>정의 목록 = dl 태그<br></li><li>비디오, 오디오 태그 = 브라우저 호환성 문제에 따른 source 태그<br></li><li>video.js 플러그인 = 비디오 호환성 해결 위한 플러그인<br></li><li>트랙 태그 = 자막<br></li></ol></li></ul><p>HTMLCSS 경험치 : 1 X 8 = 8exp, JSP 수업에서 배운 내용이 많았습니다.</p><hr><h3>‘Khanacademy.org 의 Intro to JS’<h6>(이하 칸JS)</h6></h3><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>도형 태그 = ellipse, rect, line<br></li><li>그림 태그 = fill, stroke,nofill, nostroke, strokeweight<br></li><li>텍스트 태그 = text, textsize<br></li><li>변수, 함수 = var Varialbes, function(), draw<br></li><li>마우스 태그 = mouseXY<br></li></ol></li></ul><p>특이사항 : 한 챕터 끝나고 자기주도학습으로 주어지는 과제가 있습니다.<br>음식그리기 과제였는데, 대충해서 제출했다가 지적을 당해 다시 그려야했습니다.</p><p>JS 경험치 : 1 X 2 = 2exp, 아직 기초부분이었습니다.</p>]]></content>
+    <content type="html"><![CDATA[<p>작심일일이라 부끄러운 한 주였습니다.<br>친구와의 저녁약속, 컨디션 난조 등으로 생각만큼 진도를 나가지 못했습니다.</p><hr><h3>‘성공과 실패를 결정하는 1% 네트워크 원리’<h6>(이하 네트워크원리)</h6></h3><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>URL 끝 / 뒤에는 index.html 등이 생략<br></li><li>리퀘스트라인(HTTP 포맷 첫째 행) = [메소드] [URI] [버전]<br></li><li>메소드 = 동작요구<br></li><li>URI = 액세스 대상<br></li><li>스테이터스라인(응답메시지 첫째 행) = [버전] [스테이터스코드] [응답문구]<br></li><li>스테이터스 코드 = 실행결과 상태 표시<br></li><li>응답문구 = 실행결과 알림<br></li><li>메시지 본문에 영상 등의 태그가 있으면 빈칸표시, 이후 URI부분에 영상 파일 이름 쓴 리퀘스트 메시지 재차전달의 반복<br></li><li>IP 아닌 도메인으로 직접 연결 안하는 이유 = IP 4바이트, 도메인 최대 255바이트. 비효율<br></li><li>Socket 라이브러리 = 네트워크 기능 호출 위한 프로그램 부품집<br></li><li>리졸버 = DNS서버에 IP주소 확인(네임 리졸루션(resolution)), 소켓 라이브러리 내에 포함.<br></li><li>리졸버 호출 방법 = 리졸버 프로그램명(“도메인명”)<br></li><li>리졸버에는 송수신 기능이 없으므로 송신 동작은 OS 내부 포함된 ‘프로토콜 스택’ 호출<br></li></ol></li></ul><p>User → URL → 웹브라우저 → HTTP 리퀘스트 메시지 → 리졸버 호출 → Socket 라이브러리 → 리졸버 → 프로토콜 스택</p><p>네트워크 경험치 : 2 X 2 = 4exp, 새롭게 알게 된 내용이 많았습니다.</p><hr><h3>‘자바 웹 프로그래밍 Next Step’ <h6>(이하 자바웹)</h6></h3><p></p><p><br>경험치가 부족하여 아직 읽을 수가 없었습니다.<br>HTML, CSS, JS, JAVA, String, DB 기초를 쌓은 다음에 도전이 가능할 듯합니다.</p><p>자바웹 경험치 : 0exp</p><hr><h3>‘모던 웹 디자인을 위한 HTML5 + CSS3 입문’<h6>(이하 HTMLCSS입문)</h6></h3><ul><br><li>공부한 시간 : 8시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>루비 문자 = 후리가나<br></li><li>정의 목록 = dl 태그<br></li><li>비디오, 오디오 태그 = 브라우저 호환성 문제에 따른 source 태그<br></li><li>video.js 플러그인 = 비디오 호환성 해결 위한 플러그인<br></li><li>트랙 태그 = 자막<br></li><li>폼 필드를 하나로 묶는 태그 = fieldset<br></li><li>공간 분할 태그 = div, span<br></li><li>시멘틱 구조 = 이름을 지정해 div 대체<br></li></ol></li></ul><p>HTMLCSS 경험치 : 1 X 8 = 8exp, JSP 수업에서 배운 내용이 많았습니다.</p><hr><h3>‘Khanacademy.org 의 Intro to JS’<h6>(이하 칸JS)</h6></h3><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게된 사실<br><ol type="1"><li>도형 태그 = ellipse, rect, line<br></li><li>그림 태그 = fill, stroke,nofill, nostroke, strokeweight<br></li><li>텍스트 태그 = text, textsize<br></li><li>변수, 함수 = var Varialbes, function(), draw<br></li><li>마우스 태그 = mouseXY<br></li></ol></li></ul><p>특이사항 : 한 챕터 끝나고 자기주도학습으로 주어지는 과제가 있습니다.<br>음식그리기 과제였는데, 대충해서 제출했다가 지적을 당해 다시 그려야했습니다.</p><p>JS 경험치 : 1 X 2 = 2exp, 아직 기초부분이었습니다.</p>]]></content>
     
     <summary type="html">
     

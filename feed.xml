@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-01-14T10:37:45.885Z</updated>
+  <updated>2018-01-21T10:39:27.062Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3주차</title>
+    <link href="https://siml-seo.github.io/2018/01/21/3%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/01/21/3주차/</id>
+    <published>2018-01-21T08:07:25.000Z</published>
+    <updated>2018-01-21T10:39:27.062Z</updated>
+    
+    <content type="html"><![CDATA[<p>무난한 일주일이었습니다.<br>발표를 생각해 개인과제를 관리프로그램으로 선회해야할 것 같습니다.</p><p><hr></p><p></p><h3>‘HTMLCSS입문’</h3><p></p><ul><br><li>공부한 시간 : 7시간<br></li><li>새롭게 알게된 사실<br><ol><li>CSS 선택자 = id, class, 속성(input), 후손, 자손,<br>                    동위(애니메이션), 상태(아코디언), 구조(li, 자손)<br>                    링크, 부정, 사용자지정속성(data-)<br></li><li>스타일 속성 = 크기, 색상, url, 가시(display),<br>                 박스(margin,padding), 테두리(border),<br>                 배경(attachment), 폰트</li></ol></li></ul><p>HTMLCSS 경험치 : 2 X 7 = 14 + 8 = 22exp, 기본기가 쌓이고 있습니다.</p><p><hr></p><p></p><h3>‘칸JS’ + ‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 6시간<br></li><li>새롭게 알게된 사실<br><ol><li>모듈(작업 환경요소 변환한 작은 로직) vs<br>        라이브러리(모듈 같은 로직의 집합. 대표적 jQuery)<br></li><li>정규표현식 = 특정 조건의 문자 검색, 치환(주로 url?)<br></li><li>클로저 = 내외부함수 존재시 내부함수 소멸까지 외부함수 지역변수 존재<br></li><li>arguments = 함수 호출시 입력된 인자 담길 은닉된 유사배열<br></li><li>.apply = this와 함께 사용해 여러 객체에 사용할 수 있는 공용함수 정의하여 활용<br></li><li>전역객체 = 모든 객체는 전역객체(window.)의 프로퍼티<br></li><li>생성자 = JS의 객체를 만드는 주체는 함수<br></li><li>변환 = 적용 필드의 변환(좌표이동, 회전, 확대 등)<br>      (translate, rotate, scale, pushMatrix, popMatrix)<br></li></ol></li></ul><p>JS경험치 : 2 X 6 = 12 + 10 = 22exp,<br>칸JS가 너무 지엽적이라, 3D 애니메이션 차트부터 생활코딩JS로 넘어갔습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;무난한 일주일이었습니다.&lt;br&gt;발표를 생각해 개인과제를 관리프로그램으로 선회해야할 것 같습니다.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘HTMLCSS입문’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 7시간&lt;br&gt;&lt;/li
+      
+    
+    </summary>
+    
+      <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
+    
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>2주차</title>
@@ -42,9 +72,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
   </entry>
   
@@ -74,13 +104,13 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
-    
-      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
-    
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
     
   </entry>
   

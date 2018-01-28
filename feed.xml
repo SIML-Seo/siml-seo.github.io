@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-01-21T10:39:27.062Z</updated>
+  <updated>2018-01-28T13:49:19.053Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>4주차</title>
+    <link href="https://siml-seo.github.io/2018/01/28/4%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/01/28/4주차/</id>
+    <published>2018-01-28T11:04:36.000Z</published>
+    <updated>2018-01-28T13:49:19.053Z</updated>
+    
+    <content type="html"><![CDATA[<p>최강한파에 따른 감기로 골골대는 일주일이었습니다.</p><p><hr></p><p></p><h3>‘HTMLCSS입문’</h3><p></p><ul><br><li>공부한 시간 : 6시간<br></li><li>새롭게 알게된 사실<br><ol><li>스타일 속성 = 위치(position, float, overflow)<br></li><li>IE 보완 방법 = ie9.js, css3 pie..<br></li><li>부트스트랩 프레임워크</li></ol></li></ul><p>HTMLCSS 경험치 : 2 X 6 = 12 + 22 = 34exp, 새로운 프레임워크를 맛 봤습니다.</p><p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 5시간<br></li><li>새롭게 알게된 사실<br><ol><li>상속 = prototype<br></li><li>원시 데이터 타입, 레퍼 객체 = 복제, 참조<br></li><li>레퍼 호출 = (function($){$()})(jquery)<br></li><li>이벤트 = onclick, onchange, onkeydown, .querySelector</li></ol></li></ul><p>JS경험치 : 2 X 5 = 10 + 22 = 32exp</p><p><hr></p><p></p><h3>‘네트워크원리’</h3><p></p><ul><br><li>공부한 시간 : 4시간<br></li><li>새롭게 알게된 사실<br><ol><li>IP헤더 = 플래그(패킷 조각 가능 유무), 프래그먼트오프셋(IP메시지 중 이 패킷의 위치), 프로토콜 번호, 송수신 IP주소<br></li><li>MAC헤더 = 송수신 MAC주소, 이더타입(‘=.프로토콜 번호)<br></li><li>ARP = 전브로드캐스트에 해당 IP주소 색인 질의를 던져 MAC주소 반환받음<br></li><li>리피터허브 = 모두에게 신호, 스위칭허브(現) = 대상 기기에만 신호<br></li><li>LAN어댑터 = 디지털데이터 → 전기, 빛<br></li><li>프리앰블 = 1, 0의 비트열 파형설정(타이밍)<br></li><li>스타트 프레임딜리미터 = 끝자리 11의 비트패턴, 패킷 개시 위치로 간주<br></li><li>클록 = 10 비트형 구분을 위한 별도 신호, 보통 데이터신호와 클록신호 합쳐 보내고, 거기서 원래 데이터 신호만 추출<br></li><li>FCS = 데이터변형 검출위한 비트열<br></li><li>반이중 모드 = 리피터 허브 사용. 타 신호 조사, 없을 시에만 전송. 충돌 시 재밍신호 흘려 송신 동작 멈춘 후 재시도<br></li><li>인터럽트 = PC가 실행중인 작업에 끼어들어 LAN어댑터 쪽으로 주의 환기시켜 데이터 처리로 전환<br></li><li>리어셈블링 = 프래그먼트 오프셋을 확인하여 분할된 패킷 모두 도착하면 패킷을 원래 모습으로 되돌리는 동작<br></li><li>UDP = 제어용 짧은 데이터, 음성 및 동영상 데이터<br></li><li>트위스트 페어 케이블(꼰 선쌍) = PHY(MAU) 회로의 + - 신호 보호를 위해 잡음 억제. 기기 누설전자파가 나선으로 꼰 선과 만날 시 전류 흐르는 방향이 반대가 되어 서로 상쇄. 인접 신호선 누설 전자파(크로스토크)가 꼬는 간격이 다른 + - 신호와 만나 잡음 영향 반대되어 균형이 잡힘<br></li><li>MDI/MDI-X = 전환 스위치. 커넥터와 신호 송수신회로를 직접 결선하거나 교차하여 결선하는 것</li></ol></li></ul><p>네트워크 경험치 : 2 X 4 = 8 + 12 = 20exp, 허브 라우터 파트로 넘어가는 중이라 나름 수월합니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;최강한파에 따른 감기로 골골대는 일주일이었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘HTMLCSS입문’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 6시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게된 사실&lt;br&gt;&lt;ol&gt;&lt;li
+      
+    
+    </summary>
+    
+      <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
+    
+    
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+  </entry>
   
   <entry>
     <title>3주차</title>
@@ -40,9 +72,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
   </entry>
   
@@ -72,9 +104,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   
@@ -104,13 +136,13 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
-    
       <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
   </entry>
   

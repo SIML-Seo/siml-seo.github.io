@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-01-28T13:49:19.053Z</updated>
+  <updated>2018-02-04T11:10:15.136Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>5주차</title>
+    <link href="https://siml-seo.github.io/2018/02/04/5%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/02/04/5주차/</id>
+    <published>2018-02-04T10:47:08.000Z</published>
+    <updated>2018-02-04T11:10:15.136Z</updated>
+    
+    <content type="html"><![CDATA[<p>개인과제를 시작했기에 쪼갤 시간이 부족했습니다.</p><p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 4시간<br></li><li>새롭게 알게된 사실<br><ol><li>ObjectModel = JS로 제어가능한 대상<br></li><li>BOM = Browser Object Model, 웹페이지 내용 제외한 브라우저 각종 요소 객체화<br></li><li>BOM = alert(경고창), confirm(확인창), propmt(입력창),<br>location(브라우저 문서 주소), navigator(브라우저 자체 정보)<br></li><li>DOM = Document Object Model, 웹 페이지 내용 제어,<br>document.getElementsByTagName 등등<br></li><li>HTMLElement = .getElementById(HTMLElement),<br>.getElementsByTagName(HTMLElementCollection(유사배열)) 등의 메소드 통해 조회한 객체의 리턴 값<br></li><li>jQuery = 기본형 ($(선택자).css(‘sytle’, ‘옵션’)),<br>중복형 ($(#active).css(‘color’,’red’).css(‘textDecoration’ , ‘underline’)), 배열형 $(li[i]).css(~)</li></ol></li></ul><p>JS경험치 : 2 X 4 = 8 + 32 = 40exp</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;개인과제를 시작했기에 쪼갤 시간이 부족했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 4시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;Obj
+      
+    
+    </summary>
+    
+      <category term="2018/02" scheme="https://siml-seo.github.io/categories/2018-02/"/>
+    
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>4주차</title>
@@ -40,11 +68,11 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
   </entry>
   
@@ -72,9 +100,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   
@@ -104,9 +132,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
   </entry>
   
@@ -136,13 +164,13 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
-      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
     
   </entry>
   

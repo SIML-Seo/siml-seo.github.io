@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-02-04T11:10:15.136Z</updated>
+  <updated>2018-02-11T13:12:09.144Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>6주차</title>
+    <link href="https://siml-seo.github.io/2018/02/11/6%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/02/11/6주차/</id>
+    <published>2018-02-11T12:53:37.000Z</published>
+    <updated>2018-02-11T13:12:09.144Z</updated>
+    
+    <content type="html"><![CDATA[<p>개인과제를 진행했기에 쪼갤 시간이 부족했습니다.</p><p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 4시간<br></li><li>새롭게 알게된 사실<br><ol><li>jQuery = 암시적 반복(DOM과 달리 메소드 실행시 선택된 엘리먼트 전체에 대해 동시작업, 설정(인자 2개)일 때만 작용), 체이닝(선택 엘리먼트에 연속작업), map메소드(순회조회, 인자로 반드시 함수 포함해야함)<br></li><li>식별자(Element 객체) = 문서내 특정 엘리먼트 식별(Element.className보다 classList가 클래스 추가, 삭제 등에 용의(toggle))<br></li><li>조회(Element 객체) = DOM의 getElement와 달리 해당 엘리먼트 하위만을 조회(getElement, querySeletor)<br></li><li>속성(Element 객체) = 엘리먼트 속성을 알아내고 변경(getAttribute, setAttribute, removeAttribute), 프로퍼티에 직접 대입하는 방식이 더 빠르고 편하지만 실 html속성 이름과 다른 이름을 갖는 경우가 많음<br></li><li>jQuery 속성제어 = .attr(), .removeAttr(), .prop(), 프로퍼티 고유 이름 아니라도 동일결과 처리, selector context(Element 객체처럼 조회대상을 줄여서 사용하는 방법, 쿼리문 인자로 두 대상을 넣어 사용, find)</li></ol></li></ul><p>JS경험치 : 2 X 4 = 8 + 40 = 48exp</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;개인과제를 진행했기에 쪼갤 시간이 부족했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 4시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;jQu
+      
+    
+    </summary>
+    
+      <category term="2018/02" scheme="https://siml-seo.github.io/categories/2018-02/"/>
+    
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>5주차</title>
@@ -68,11 +96,11 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+    
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
   </entry>
   
@@ -132,9 +160,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   
@@ -164,13 +192,13 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
       <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   

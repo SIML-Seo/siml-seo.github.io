@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-02-11T13:12:09.144Z</updated>
+  <updated>2018-02-18T13:59:52.580Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>7주차</title>
+    <link href="https://siml-seo.github.io/2018/02/18/7%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/02/18/7주차/</id>
+    <published>2018-02-18T12:16:00.000Z</published>
+    <updated>2018-02-18T13:59:52.580Z</updated>
+    
+    <content type="html"><![CDATA[<p>드디어 개인과제가 끝났습니다. 직원 관리 프로그램을 TUI로 구현했습니다. 총 소요시간은 32시간입니다.</p><p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게된 사실<br><ol><li>Node 객체 = 모든 DOM 객체의 상위 객체, .childNodes(자식노드 배열), .nextSibling(다음형제), previousSibling(이전형제), 유형화된 것처럼 보이는 객체만 취급하는 것이 아니라 \n과 같은 공백문자(#text)도 포함, .nodeType(노드 타입)을 이용한 재귀함수(원함수→광범위→대상제어→매개함수(재귀함수))</li></ol></li></ul><p>JS경험치 : 2 X 2 = 4 + 48 = 52exp</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;드디어 개인과제가 끝났습니다. 직원 관리 프로그램을 TUI로 구현했습니다. 총 소요시간은 32시간입니다.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 2시간&lt;br&gt;&lt;/
+      
+    
+    </summary>
+    
+      <category term="2018/02" scheme="https://siml-seo.github.io/categories/2018-02/"/>
+    
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>6주차</title>
@@ -98,9 +126,9 @@
     
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
   </entry>
   
@@ -128,9 +156,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
   </entry>
   
@@ -194,11 +222,11 @@
     
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
-      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
     
   </entry>
   

@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-02-18T13:59:52.580Z</updated>
+  <updated>2018-02-25T14:53:20.802Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>8주차</title>
+    <link href="https://siml-seo.github.io/2018/02/25/8%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/02/25/8주차/</id>
+    <published>2018-02-25T13:01:51.000Z</published>
+    <updated>2018-02-25T14:53:20.802Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 6시간<br></li><li>새롭게 알게된 사실<br><ol><li>Node객체 = .appendChild, .replaceChild, .removeChild(새로운 노드를 추가하기 위해서는 document 객체인 createElement 기능을 통해 엘리먼트 노드를 추가하고, createTextNode로 텍스트 노드를 추가한다. 이 것을 자식으로서 엘리먼트에 추가), 문자열로 노드 제어(객체.innerHTML, innerText 등이 간편)<br></li><li>Text객체 = 공백이나 줄바꿈도 텍스트 노드, .nodeValue로 텍스트 노드의 값을 반환 또는 변환, .appendData, .deleteData, .insertData 등으로 제어<br></li><li>요소 크기, 위치 = .getBoundingClientRect으로 나오는 요소의 위치 값은 부모 기준이 아니라 body를 기준, viewport(사용자에게 보이는 영역)의 좌표 사용<br></li><li>이벤트 = 인라인방식(HTML(정보)+JS(제어)), 프로퍼티 리스너 방식(객체.이벤트, return false로 기본동작 취소), addEventListener 방식(객체.addEventListener(이벤트, 함수), 복수 엘리먼트에 한 리스너 등록해 재사용 가능, .preventDefault()로 기본동작 취소), 캡처링(이벤트가 부모에서부터 발생해 자식으로 전파되는 것), 버블링(자식에서 발생해 부모로 전파되는 것)</li></ol></li></ul><p>JS경험치 : 2 X 6 = 12 + 52 = 64exp</p><p><hr></p><p></p><h3>‘HTMLCSS입문’</h3><p></p><ul><br><li>공부한 시간 : 5시간<br></li><li>새롭게 알게된 사실<br><ol><li>레이아웃 구성 = 페이지 구상 → 구성 영역 분리 → 행 단위 분리 → 행 내부 요소 분리<br></li><li>초기화 = 모든 HTML 페이지 첫번째 스타일시트에 초기화 코드, 모든 웹브라우저에서 동일 출력 결과 만들기 위함<br></li><li>CSS 사이드 탭바 = radio + label + checked + display</li></ol></li></ul><p>HTMLCSS 경험치 : 2 X 5 = 10 + 34 = 44exp, 실제로 어떻게 적용되고 어떤 식으로 작성하는지 알 수 있었습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 6시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;Node객체 = .appendChild, .replaceChild,
+      
+    
+    </summary>
+    
+      <category term="2018/02" scheme="https://siml-seo.github.io/categories/2018-02/"/>
+    
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+  </entry>
   
   <entry>
     <title>7주차</title>
@@ -126,9 +155,9 @@
     
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   
@@ -156,9 +185,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
-    
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   
@@ -222,11 +251,11 @@
     
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
     
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
-      <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   

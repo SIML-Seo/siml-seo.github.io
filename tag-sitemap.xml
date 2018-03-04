@@ -24,7 +24,14 @@
 
     <url>
         <loc>https://siml-seo.github.io/tags/JS/</loc>
-        <lastmod>2018-02-25T14:53:20.802Z</lastmod>
+        <lastmod>2018-03-04T15:15:36.734Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://siml-seo.github.io/tags/JSP/</loc>
+        <lastmod>2018-03-04T15:15:36.734Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

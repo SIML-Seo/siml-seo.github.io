@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-02-25T14:53:20.802Z</updated>
+  <updated>2018-03-04T15:15:36.734Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>9주차</title>
+    <link href="https://siml-seo.github.io/2018/03/04/9%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/03/04/9주차/</id>
+    <published>2018-03-04T12:56:34.000Z</published>
+    <updated>2018-03-04T15:15:36.734Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게 된 사실<br><ol><li>이벤트 타입 = 폼(submit, change, blur, focus), 문서로딩(DOMContentLoaded), 마우스(click, .. , contextmenu, event.shiftkey, event.clientX)<br></li><li>jQuery on API = selector로 버블링 구현(body에 등록하고 셀럭터로 태그 지정), 다중바인딩</li></ol></li></ul><p>JS경험치 : 2 X 2 = 4 + 64 = 68exp</p><p><hr></p><p></p><h3>‘인프런JSP’</h3><p></p><ul><br><li>공부한 시간 : 7시간<br></li><li>새롭게 알게 된 사실<br><ol><li>내장객체 = jsp컨테이너(서블릿컨테이너)에 의해 servlet 변환시 자동으로 객체 생성<br></li><li>useBean = 빈 클래스 불러오는 역할만. 프로퍼티로 설정을 해줘야 이용이 가능<br></li><li>표현언어 = 어디까지나 표현식의 역할 대신, 스크립트릿, 선언식의 역할X<br></li><li>DBMS = Database Management System, 데이터베이스 관리 위한 도구, 통상 데이터베이스와 동일시. 가장 많이 사용하는 것이 RDMBS(Relational ~)로 대표적인 것이 오라클, sqlplus는 DB 관리 위한 오라클 기본 제공의 무료 툴</li></ol></li></ul><p>JSP경험치 : 1 X 7 = 7exp, 복습차원에서 했던 것이라 새롭게 알게된 것 보다는 정리에 더 가까웠습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 2시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;이벤트 타입 = 폼(submit, change, blur, foc
+      
+    
+    </summary>
+    
+      <category term="2018/03" scheme="https://siml-seo.github.io/categories/2018-03/"/>
+    
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+  </entry>
   
   <entry>
     <title>8주차</title>

@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-03-04T15:15:36.734Z</updated>
+  <updated>2018-03-11T14:14:20.851Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>10주차</title>
+    <link href="https://siml-seo.github.io/2018/03/11/10%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/03/11/10주차/</id>
+    <published>2018-03-11T13:10:40.000Z</published>
+    <updated>2018-03-11T14:14:20.851Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게 된 사실<br><ol><li>Ajax = 비동기적으로 서버&amp;브라우저 데이터 전송, 별도 로딩 없이 페이지에 프로그래밍 반영, new XMLHttpRequest, .onreadystatechange(통신 종료 시 호출되는 이벤트), .readyState(통신의 현재 상태, 4 = 통신완료), .status(통신결과, 200 = 성공), .responseText(서버에서 전송한 데이터)<br></li><li>JSON = 자바스크립트에서 객체를 만들때 사용하는 표현식 적용(서로 다른 언어끼리 동일한 표현식으로 전송), JSON.parse()(인자로 전달된 문자열 → JS 데이터), JSON.stringify()(인자로 전달된 JS데이터 → 문자열)<br></li><li>$.ajax = Ajax의 크로싱브라우저 문제를 jQuery가 자동해결, url, data(url 전송 결과 데이터, $().serialize()(인자 내의 정보 ‘이름=내용&amp;’ 형식으로 자동변환)), dataType(전송데이터 형식), type(데이터 전송방법), success(성공시 호출할 함수)</li></ol></li></ul><p>JS경험치 : 2 X 2 = 4 + 68 = 72exp</p><p><hr></p><p></p><h3>‘인프런JSP’</h3><p></p><ul><br><li>공부한 시간 : 8시간<br></li><li>새롭게 알게 된 사실<br><ol><li>커넥션풀 = DB에 다중접속시 발생할 과부하 방지 위해 커넥션 객체를 미리 만들기, &lt;Resource ‘auth(작업위치, Container) , driverClassName(~.OracleDriver), url(DB위치 ~:xe), username, password, name(오라클명), type, maxActive(생성 풀 개수), maxWait(풀 소진시 재생성 대기시간)/&gt;, Datasource(DAO에서 읽어오기 위한 객체)<br></li><li>파일업로드 = 자료실, 게시판 등에 이용되는 업로드 기능, 주로 cos 라이브러리를 사용, MultipartRequest(request, 저장경로, 크기, 인코딩형식, 동일이름 시 사용할 정책)<br></li><li>패턴 = 디렉터리 패턴(uri패턴, 디렉터리 형식으로 매핑) 확장자 패턴(url패턴, 확장자 형태로 매핑), FrontController 패턴(클라이언트의 요청 한 곳에 집중), Command패턴(클라이언트의 요청 집중받은 곳 아닌 개별 클래스에서 처리)</li></ol></li></ul><p>JSP경험치 : 2 X 8 = 16 + 7 = 23exp, 패턴이 나오기 시작하면서 실무적인 느낌이 들었습니다.</p><p><hr></p><p></p><h3>‘자바’</h3><p></p><p><ul></ul></p><li>공부한 시간 : 2시간<br></li><li>새롭게 알게 된 사실<br><ol><li>private static final = static 멤버변수(클래스변수, 모든 해당 클래스는 같은 메모리를 공유), static은 데이터 영역에 속하기에 항상 메모리에 상주 Heap 영역처럼 객체 생성시 메모리에 로드 되는 것 X, static final(클래스에서 사용할 해당 멤버 변수의 데이터와 의미 용도 고정, 그러므로 인스턴스 생성시 마다 새 메모리 잡고 초기화하는 것이 아니라 클래스 레벨에서 한 번만 잡아 한 메모리 공간 사용)<br></li><li>싱글톤 패턴 = Eager(클래스 로딩시 곧바로 객체 생성, 프로그램 크기 커질 시 부담), static block(기본과 동일하나 block단에 로직이나 예외처리 구현가능), lazy(메소드 실행시 객체 생성, 멀티스레드 방식시 인스턴스화 중복될 우려), thread safe(getInstace 메소드를 synchronized하여 동기화 문제 해결, 많은 스레드에서 메소드 호출시 높은 비용으로 성능저하), initialization on demand holder(내부 클래스를 생성시킴으로서 동기화 문제와 높은 비용 해결)</li></ol></li><p>싱글톤에 대해 더 알 수 있었고, static 개념을 좀 더 확실히 알게되었습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 2시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;Ajax = 비동기적으로 서버&amp;amp;브라우저 데이터 전송, 별도
+      
+    
+    </summary>
+    
+      <category term="2018/03" scheme="https://siml-seo.github.io/categories/2018-03/"/>
+    
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+      <category term="JAVA" scheme="https://siml-seo.github.io/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>9주차</title>
@@ -68,9 +99,9 @@
       <category term="2018/02" scheme="https://siml-seo.github.io/categories/2018-02/"/>
     
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
   </entry>
   
@@ -182,11 +213,11 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   
@@ -214,9 +245,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
     
   </entry>
   
@@ -246,9 +277,9 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
-      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
-    
       <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
   </entry>
   
@@ -278,13 +309,13 @@
       <category term="2018/01" scheme="https://siml-seo.github.io/categories/2018-01/"/>
     
     
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
       <category term="네트워크" scheme="https://siml-seo.github.io/tags/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC/"/>
     
       <category term="HTML" scheme="https://siml-seo.github.io/tags/HTML/"/>
     
       <category term="CSS" scheme="https://siml-seo.github.io/tags/CSS/"/>
-    
-      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
     
   </entry>
   

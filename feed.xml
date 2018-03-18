@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-03-11T14:14:20.851Z</updated>
+  <updated>2018-03-18T13:33:32.240Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>11주차</title>
+    <link href="https://siml-seo.github.io/2018/03/18/11%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/03/18/11주차/</id>
+    <published>2018-03-18T12:59:40.000Z</published>
+    <updated>2018-03-18T13:33:32.240Z</updated>
+    
+    <content type="html"><![CDATA[<p>생일이 끼어있는 주라 저녁시간을 많이 활용하지 못했습니다.</p><p><hr></p><p></p><h3>‘생활코딩JS’</h3><p></p><ul><br><li>공부한 시간 : 2시간<br></li><li>새롭게 알게 된 사실<br><ol><li>ArrayAccessObject = 객체 내의 프로퍼티를 조작하는 방법, var.prop, var[‘prop’]의 차이(인덱스의 이름을 변수로 처리해서 동적으로 처리할 수 있다, [] 안의 것은 변수로서 객체 내의 프로퍼티를 참조하여 조작가능)<br></li><li>북마클릿화 = URL에 javascript: 로 JS문 직접호출가능</li></ol></li></ul><p>JS경험치 : 2 X 2 = 4 + 72 = 76exp, 일단은 JS강의가 끝이 났지만, 역시 책이 아니라 그런지 머리 속에서 정리가 잘 안되어 책을 봐야할 것 같습니다.</p><p><hr></p><p></p><h3>‘인프런JSP’</h3><p></p><ul><br><li>공부한 시간 : 5시간<br></li><li>새롭게 알게 된 사실<br><ol><li>MVC = model1(View와 Controller가 한 파일로 있는 형태, 규모 작고 유지보수보다 빠른 개발 선호시), model2(Model, View Controller가 모두 모듈화, 규모크고 유지보수 수시로 있을 경우), 기본 구조(.do 요청 → FrontController 요청페이지 확인하여 분기 → ListCommand Dao에 연결 → Dao 컨트롤러에서 요청한 작업 수행 → .jsp 컨트롤러에서 완료한 작업 표시)<br></li></ol></li></ul><p>JSP경험치 : 2 X 5 = 10 + 23 = 33exp, 서블릿에 대한 것을 그냥 넘겨서는 안된다는 것을 깨달았습니다.</p><p><hr></p><p></p><h3>‘자바’</h3><p></p><ul><br><li>공부한 시간 : 1시간<br></li><li>새롭게 알게 된 사실<br><ol><li>JVM = OS가 독립적으로 수행하던 메모리 사용권한 할당받아 프로그램 실행<br></li><li>JVM메모리구조 = 클래스(변수정보, 메소드정보, 클래스정보, static변수, 상수풀), 스택(메소드호출시 메소드 관련 모든정보, 수행끝나면 삭제), 힙(객체, 배열, new, eden, survivor, old)</li></ol></li></ul><p>static을 보면서 미진했던 것을 메모리구조와 JVM을 살펴보며 잘 이해할 수 있었습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;생일이 끼어있는 주라 저녁시간을 많이 활용하지 못했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘생활코딩JS’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 2시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;
+      
+    
+    </summary>
+    
+      <category term="2018/03" scheme="https://siml-seo.github.io/categories/2018-03/"/>
+    
+    
+      <category term="JS" scheme="https://siml-seo.github.io/tags/JS/"/>
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+      <category term="JAVA" scheme="https://siml-seo.github.io/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>10주차</title>

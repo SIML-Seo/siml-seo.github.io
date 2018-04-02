@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-03-18T13:33:32.240Z</updated>
+  <updated>2018-04-01T12:22:00.315Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,47 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>13주차</title>
+    <link href="https://siml-seo.github.io/2018/04/01/13%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/04/01/13주차/</id>
+    <published>2018-04-01T12:22:00.000Z</published>
+    <updated>2018-04-01T12:22:00.315Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>12주차</title>
+    <link href="https://siml-seo.github.io/2018/03/25/12%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/03/25/12주차/</id>
+    <published>2018-03-25T14:11:11.000Z</published>
+    <updated>2018-04-02T14:12:38.215Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘자바웹’</h3><p></p><ul><br><li>공부한 시간 : 7시간<br></li><li>새롭게 알게 된 사실<br><ol><li>단위테스트 라이브러리 = JUnit, 테스트 결과를 콘솔에 출력되는 값을 통해 수동으로 확인X, @Test, @Before, assertEquals(True, Null, ..)<br></li><li>logging 라이브러리 = 로그레벨(info warn error 등) 따라 메시지 더할 필요 있는지 여부를 xml을 통해 자동적으로 파악<br></li><li>웹서버 = 웹클라이언트는 웹서버와 데이터 주고 받기 위해 HTTP 규약을 따름(즉 라인, 헤더, 공백, 본문), 이 규약을 스트림을 통해 한줄한줄 읽어 처리하는 것이 웹서버<br></li><li>GET방식 = 요청라인의 구성요소(HTTP메소드, URI, HTTP버전) 중 URI 부분에 각 파라미터값을 포함하여 기재된 상태로 전송되므로 URI를 읽어 처리<br></li><li>POST방식 = GET의 쿼리스트링들을 요청분문을 통해 전달, 해당 요청의 헤더부분에 있는 Content-Length 필드를 통해 본문 길이를 구하고 그 길이만큼 본문을 읽어 Map 형태로 반환해 처리<br></li><li>상태코드 = 200(= 전송성공), 302(= redirect)<br></li><li>무상태프로토콜 = HTTP는 연결은 재사용하지만 각 요청 간의 상태 데이터를 공유할 수 없는 무상태프로토콜, 그렇기에 서버가 클라이언트가 누구인지 식별할 방법이 없어 지원하는 방식이 쿠키, 응답헤더에 Set-Cookie로 값을 저장하면 클라이언트는 요청헤더에 매번 Cookie 헤더 값을 재전송하여 자신을 알림<br></li><li>템플릿메소드 패턴 = 반복적으로 발생하는 로직은 상위 클래스가 구현, 변화가 발생하는 부분만 추상 메소드로 만들어 구현하도록하는 디자인 패턴<br></li></ol></li></ul><p>JSP경험치 : 2 X 7 = 14 + 33 = 47exp, 확실히 전문적이고 실용적인 지식은 늘어났으나 이게 과연 지금 나한테 정말로 적합한 지식인가하는 의문은 계속해서 생기고 있습니다.</p><p><hr></p><p></p><h3>‘자바’</h3><p></p><ul><br><li>공부한 시간 : 1시간<br></li><li>새롭게 알게 된 사실<br><ol><li>익명클래스 = 인터페이스는 구현화 되지 않으면 객체를 생성하는 것이 불가능. 객체를 만드는 동시에 오버라이드해서 객체를 생성하는 것이 익명클래스. 즉, new abstract(){ @Override ~ } 의 형태<br></li></ol></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘자바웹’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 7시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;단위테스트 라이브러리 = JUnit, 테스트 결과를 콘솔에 출력되는 값
+      
+    
+    </summary>
+    
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+      <category term="JAVA" scheme="https://siml-seo.github.io/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>11주차</title>

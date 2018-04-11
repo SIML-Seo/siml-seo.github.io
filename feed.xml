@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-04-03T12:51:42.695Z</updated>
+  <updated>2018-04-11T15:04:40.675Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>14주차</title>
+    <link href="https://siml-seo.github.io/2018/04/09/14%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/04/09/14주차/</id>
+    <published>2018-04-09T13:09:11.000Z</published>
+    <updated>2018-04-11T15:04:40.675Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘자바웹’</h3><p></p><ul><br><li>공부한 시간 : 8시간<br></li><li>새롭게 알게 된 사실<br><ol><li>유틸리티 메소드 = $.ajax(O) $(ajax)(X), 특정 DOM요소를 선택 않고 사용하는 것, 특정 대상 아닌 환경 그 자체에 영향<br></li><li>JS템플릿 = HTML조각을 동적으로 만들어 페이지에 추가하는 것, {} 대신에 특정 값을 치환해 추가, JSON으로 온 자료들을 각각에 넣을 수 있음<br></li><li>TLD = Tag Library Descriptor, 정적 메소드를 EL 함수로 등록해 사용하는 것, 반드시 정적(static)<br></li><li>메이븐 = 리퍼지토리(repository, 메이븐 저장소, dependency로 추가할 라이브러리가 해당 저장소에서부터 불러와짐), Effective POM(부모 pom.xml, 메이븐의 모든 작업은 부모 것의 플러그인에서 기인, 자식인 pom.xml에서 오버라이딩 식으로 작성해 새 플러그인 사용), Goal(플러그인을 바로 실행할 수 있도록 디폴트로 등록해둔 명령어, compile, package, eclipse:clean eclipse:eclipse), 기본페이즈(compile → test → package → install → deploy)<br></li><li>임베디드톰캣 = 내장형톰캣, WTP 기반의 톰캣은 IDE 내부에서 톰캣을 제어해 개발, 내장형톰캣은 기본설정 + 자바코드로 직접설정 가능<br></li></ol></li></ul><p>JSP경험치 : 2 X 8 = 16 + 65 = 81exp</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘자바웹’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 8시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;유틸리티 메소드 = $.ajax(O) $(ajax)(X), 특정 DOM
+      
+    
+    </summary>
+    
+      <category term="2018/04" scheme="https://siml-seo.github.io/categories/2018-04/"/>
+    
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+  </entry>
   
   <entry>
     <title>13주차</title>

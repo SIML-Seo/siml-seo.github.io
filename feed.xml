@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-04-11T15:04:40.675Z</updated>
+  <updated>2018-04-15T10:33:49.989Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>15주차</title>
+    <link href="https://siml-seo.github.io/2018/04/15/15%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/04/15/15주차/</id>
+    <published>2018-04-15T09:57:45.000Z</published>
+    <updated>2018-04-15T10:33:49.989Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘자바웹’</h3><p></p><ul><br><li>공부한 시간 : 8시간<br></li><li>새롭게 알게 된 사실<br><ol><li>Ajax = ObjectMapper(JSON의 Map형식을 담을 객체), return null(기존 MVC 형식에서 view단으로 직접 포워딩을 했지만, Ajax에서는 이동할 페이지가 없고 자료만 넘기는 형식이므로 반환값 X)<br></li><li>인터페이스의 활용 = 다형성(경우의 수가 2개 이상일 경우 if/else 통해 해결하면 복잡, 인터페이스의 다형성을 이용해 하나의 형태로 처리가능)<br></li><li>인스턴스의 규칙 = 매 클라이언트마다 서로 다른 상태 값 유지 필요시 매 요청마다 인스턴스 생성, 서로 다른 상태값 가지지 않을 경우(메소드만을 가지는 클래스) 한 인스턴스 생성 후 재사용, 스택 영역(각 스레드마다 서로 다른 영역, stack frame의 local variable(로컬변수영역)에 메모리 위치 표시(instance)), 힙 영역(각 스레드가 서로 공유할 수 있는 영역), 객체 생성을 클래스 내애서 행할 경우 해당 클래스 인스턴스(공유)가 직접 힙에 생성되는 대상 객체 인스턴스를 가리키므로 멀티스레드 환경에서 원치 않은 결과값 도출 가능, 서로 다른 상태 값이 필요한 클래스는 반드시 메소드 내에 생성하여 스택 영역에서 대상 인스턴스 가리키도록 할 필요성<br></li></ol></li></ul><p>JSP경험치 : 2 X 8 = 16 + 81 = 97exp</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘자바웹’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;공부한 시간 : 8시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;Ajax = ObjectMapper(JSON의 Map형식을 담을 객체)
+      
+    
+    </summary>
+    
+      <category term="2018/04" scheme="https://siml-seo.github.io/categories/2018-04/"/>
+    
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+  </entry>
   
   <entry>
     <title>14주차</title>

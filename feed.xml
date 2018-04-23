@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-04-15T10:33:49.989Z</updated>
+  <updated>2018-04-23T12:19:02.858Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>16주차</title>
+    <link href="https://siml-seo.github.io/2018/04/22/16%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/04/22/16주차/</id>
+    <published>2018-04-22T14:32:19.000Z</published>
+    <updated>2018-04-23T12:19:02.858Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘자바웹’</h3><p></p><p><ul></ul></p><li>공부한 시간 : 5시간<br></li><li>새롭게 알게 된 사실<br><ol><li>점진개선 = 새 기술적용(기존(Legacy) 방법 + 새 방법 동시 서비스로 점진적 개선)<br></li><li>리플렉션 = Reflections, DeclaredFileds(Constructors, Methods, public 아닌 private, protected 같은 접근 제어자에 대한 정보 반환), invoke(메소드 실행), newInstance,isAnnotationPresent(특정 어노테이션 설정된 메소드 반환, MyTest.class), setAccessible(private 필드에 접근, 이후 set으로 값 할당), getAllMethod<br></li></ol></li><p>JSP경험치 : 2 X 5 = 10 + 97 = 107exp, 1차 포트폴리오가 완성되었기에 스프링 파트로 넘어갈 것 같습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘자바웹’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;li&gt;공부한 시간 : 5시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;점진개선 = 새 기술적용(기존(Legacy) 방법 + 
+      
+    
+    </summary>
+    
+      <category term="2018/04" scheme="https://siml-seo.github.io/categories/2018-04/"/>
+    
+    
+      <category term="JSP" scheme="https://siml-seo.github.io/tags/JSP/"/>
+    
+  </entry>
   
   <entry>
     <title>15주차</title>

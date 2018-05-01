@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-04-23T12:19:02.858Z</updated>
+  <updated>2018-05-01T12:57:14.852Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>17주차</title>
+    <link href="https://siml-seo.github.io/2018/04/29/17%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/04/29/17주차/</id>
+    <published>2018-04-29T13:46:20.000Z</published>
+    <updated>2018-05-01T12:57:14.852Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘스프링 철저 입문’</h3><h6>(이하 스프링철저)</h6><p></p><p><ul></ul></p><li>공부한 시간 : 4시간<br></li><li>새롭게 알게 된 사실<br><ol><li>액션기반프레임워크 = 요청 따라 실행할 처리 행위(action) 결정 후 처리 결과로 HTML 등의 응답 반환 프레임워크(스프링MVC)<br></li><li>컴포넌트기반 프레임워크 = 요청, 응답 추상화, 화면 구성 컴포넌트 기반으로 웹어플리케이션 개발하는 프레임워크<br></li><li>스프링 시큐리티 = 스프링 기반 어플리케이션에 이능이나 인가 등 보안 기능 구현 돕는 프레임워크(Open Id,…)<br></li><li>스프링 데이터 = 다양한 데이터 저장소의 데이터에 손쉽게 접근 돕는 프레임워크<br></li><li>스프링 인티그레이션 = EIP(시스템연계 아키텍처패턴) 기초해 연계 어플리케이션 개발 돕는 프레임워크(비동기식 메시지 기반 어플리케이션 개발 지원, 엔드포인트(rest, file, xml, tcp, …) 간의 메시지 교환을 추상화해서 차이 의식할 필요 X)<br></li><li>스프링 툴 스위트(STS, 스프링 기반 어플리케이션 개발 위한 이클립스 기반 통합 개발 환경, 각종 스프링 프로젝트 + 알파(메이븐, 깃, 에스펙트제이..)가 내장)<br></li></ol></li><p>스프링 경험치 : 1 X 4 = 4px, 실무적인 것보다 아주 기본적인 내용만 살펴본 느낌입니다. 다음주부터는 코어에 들어갈 것 같습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘스프링 철저 입문’&lt;/h3&gt;&lt;h6&gt;(이하 스프링철저)&lt;/h6&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;li&gt;공부한 시간 : 4시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;액션기반프
+      
+    
+    </summary>
+    
+      <category term="2018/04" scheme="https://siml-seo.github.io/categories/2018-04/"/>
+    
+    
+      <category term="Spring" scheme="https://siml-seo.github.io/tags/Spring/"/>
+    
+  </entry>
   
   <entry>
     <title>16주차</title>

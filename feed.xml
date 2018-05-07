@@ -6,7 +6,7 @@
   <link href="/feed.xml" rel="self"/>
   
   <link href="https://siml-seo.github.io/"/>
-  <updated>2018-05-01T12:57:14.852Z</updated>
+  <updated>2018-05-07T12:59:50.196Z</updated>
   <id>https://siml-seo.github.io/</id>
   
   <author>
@@ -17,13 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>18주차</title>
+    <link href="https://siml-seo.github.io/2018/05/06/18%EC%A3%BC%EC%B0%A8/"/>
+    <id>https://siml-seo.github.io/2018/05/06/18주차/</id>
+    <published>2018-05-06T14:44:16.000Z</published>
+    <updated>2018-05-07T12:59:50.196Z</updated>
+    
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘스프링철저’</h3><p></p><li>공부한 시간 : 9시간<br></li><li>새롭게 알게 된 사실<br><ol><li>IoC = 인스턴스 제어 주도권의 역전<br></li><li>의존주입순서 = 생성자 → 필드 → 설정자<br></li><li>생성자 기반 주입 = 여러 인자 필요시 constructor-arg 여러변 정의 or index 속성 사용 or name 속성 사용<br></li><li>Optional&lt;타입&gt; 변수명 = 타입으로 오토와이어링 시 반드시 성공을 가정하기에 필요한 required=false 옵션이 적용된 기능<br></li><li>@Bean(name = “”) = 빈 이름을 정의, 구현체 이름 대신 역할, 사용목적, 용도 등을 정해 Qualifier 에 사용<br></li><li>컴포넌트 스캔 = 기본 설정 시 스캔 대상(component, controller, service(비즈니스 로직처리), repository(CRUD 처리 기능), configuration, restcontroller, controllerAdvice, managedBean, named), 필터(추가로 다른 컴포넌트 포함하거나 제외, includeFilters, annotation, assignable_type, regex, aspectj, useDefaultFilters, excludeFilters)<br></li><li>빈 생명 주기 = 초기화(빈 설정 읽기 및 보완(BFPP(플레이스홀더가 실제 프로퍼티 값으로 치환)), 빈 생성 후 초기화(초기화처리(init-method))), 종료(ConfigurableApplicationContext(ApplicationContext 인터페이스 확장한 서브 인터페이스)의 close() 호출)<br></li><li>Jasypt = 암호화 라이브러리(DataSource의 Id, Password를 다양한 암호화 알고리즘 통해 암호화)<br></li><li>log4jdbc = Model에서 이뤄지는 쿼리문의 로그를 찍어 확인하는 라이브러리<br></li></ol></li><p>스프링 경험치 : 1 X 9 = 9 + 4 = 13exp, 깊이는 없지만 기본적인 활용법은 이번주에 다 익힌 것 같으니 이를 토대로 마지막 프로젝트가 시작되겠습니다.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h3&gt;‘스프링철저’&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;
+&lt;li&gt;공부한 시간 : 9시간&lt;br&gt;&lt;/li&gt;&lt;li&gt;새롭게 알게 된 사실&lt;br&gt;&lt;ol&gt;&lt;li&gt;IoC = 인스턴스 제어 주도권의 역전&lt;br&gt;&lt;/li&gt;&lt;li&gt;의존주입순서 = 생성
+      
+    
+    </summary>
+    
+      <category term="2018/05" scheme="https://siml-seo.github.io/categories/2018-05/"/>
+    
+    
+      <category term="Spring" scheme="https://siml-seo.github.io/tags/Spring/"/>
+    
+  </entry>
+  
+  <entry>
     <title>17주차</title>
     <link href="https://siml-seo.github.io/2018/04/29/17%EC%A3%BC%EC%B0%A8/"/>
     <id>https://siml-seo.github.io/2018/04/29/17주차/</id>
     <published>2018-04-29T13:46:20.000Z</published>
-    <updated>2018-05-01T12:57:14.852Z</updated>
+    <updated>2018-05-07T12:56:37.666Z</updated>
     
-    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘스프링 철저 입문’</h3><h6>(이하 스프링철저)</h6><p></p><p><ul></ul></p><li>공부한 시간 : 4시간<br></li><li>새롭게 알게 된 사실<br><ol><li>액션기반프레임워크 = 요청 따라 실행할 처리 행위(action) 결정 후 처리 결과로 HTML 등의 응답 반환 프레임워크(스프링MVC)<br></li><li>컴포넌트기반 프레임워크 = 요청, 응답 추상화, 화면 구성 컴포넌트 기반으로 웹어플리케이션 개발하는 프레임워크<br></li><li>스프링 시큐리티 = 스프링 기반 어플리케이션에 이능이나 인가 등 보안 기능 구현 돕는 프레임워크(Open Id,…)<br></li><li>스프링 데이터 = 다양한 데이터 저장소의 데이터에 손쉽게 접근 돕는 프레임워크<br></li><li>스프링 인티그레이션 = EIP(시스템연계 아키텍처패턴) 기초해 연계 어플리케이션 개발 돕는 프레임워크(비동기식 메시지 기반 어플리케이션 개발 지원, 엔드포인트(rest, file, xml, tcp, …) 간의 메시지 교환을 추상화해서 차이 의식할 필요 X)<br></li><li>스프링 툴 스위트(STS, 스프링 기반 어플리케이션 개발 위한 이클립스 기반 통합 개발 환경, 각종 스프링 프로젝트 + 알파(메이븐, 깃, 에스펙트제이..)가 내장)<br></li></ol></li><p>스프링 경험치 : 1 X 4 = 4px, 실무적인 것보다 아주 기본적인 내용만 살펴본 느낌입니다. 다음주부터는 코어에 들어갈 것 같습니다.</p>]]></content>
+    <content type="html"><![CDATA[<p><hr></p><p></p><h3>‘스프링 철저 입문’</h3><h6>(이하 스프링철저)</h6><p></p><p><ul></ul></p><li>공부한 시간 : 4시간<br></li><li>새롭게 알게 된 사실<br><ol><li>액션기반프레임워크 = 요청 따라 실행할 처리 행위(action) 결정 후 처리 결과로 HTML 등의 응답 반환 프레임워크(스프링MVC)<br></li><li>컴포넌트기반 프레임워크 = 요청, 응답 추상화, 화면 구성 컴포넌트 기반으로 웹어플리케이션 개발하는 프레임워크<br></li><li>스프링 시큐리티 = 스프링 기반 어플리케이션에 이능이나 인가 등 보안 기능 구현 돕는 프레임워크(Open Id,…)<br></li><li>스프링 데이터 = 다양한 데이터 저장소의 데이터에 손쉽게 접근 돕는 프레임워크<br></li><li>스프링 인티그레이션 = EIP(시스템연계 아키텍처패턴) 기초해 연계 어플리케이션 개발 돕는 프레임워크(비동기식 메시지 기반 어플리케이션 개발 지원, 엔드포인트(rest, file, xml, tcp, …) 간의 메시지 교환을 추상화해서 차이 의식할 필요 X)<br></li><li>스프링 툴 스위트(STS, 스프링 기반 어플리케이션 개발 위한 이클립스 기반 통합 개발 환경, 각종 스프링 프로젝트 + 알파(메이븐, 깃, 에스펙트제이..)가 내장)<br></li></ol></li><p>스프링 경험치 : 1 X 4 = 4exp, 실무적인 것보다 아주 기본적인 내용만 살펴본 느낌입니다. 다음주부터는 코어에 들어갈 것 같습니다.</p>]]></content>
     
     <summary type="html">
     

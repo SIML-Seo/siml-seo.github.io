@@ -29,7 +29,14 @@
 
     <url>
         <loc>https://siml-seo.github.io/categories/2018-04/</loc>
-        <lastmod>2018-05-01T12:57:14.852Z</lastmod>
+        <lastmod>2018-05-07T12:56:37.666Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://siml-seo.github.io/categories/2018-05/</loc>
+        <lastmod>2018-05-07T12:59:50.196Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
